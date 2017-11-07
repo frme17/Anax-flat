@@ -1,4 +1,4 @@
-About cookies
+Om kakor "cookies"
 ==============================================
 
-What about cookies?
+Vad sägs om lite kakor?

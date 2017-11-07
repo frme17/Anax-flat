@@ -1,4 +1,4 @@
-Copyright &copy; 2012-2016 [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se)
+Copyright &copy; 2017 [Fredrik Mellkvist](https://www.linkedin.com/in/fredrik-mellkvist-34722a24/) (fredrik.mellkvist@gmail.com)
 
 * [License](license)
 * [Cookies](cookies)

@@ -1,10 +1,13 @@
 Om denna webbplats
 ==============================================
 
-Primära syftet med denna sajt är att:
+Primära syftet med denna webbplats är:
 
-* Användas för att lära sig [dbwebb course design](http://dbwebb.se/design).
+* Att använda för att lära sig [dbwebb course design](http://dbwebb.se/design).
+* Att lära sig ramverket Anax-flat
 
-Källkoden för den här webbplatsen finns på GitHub [canax/anax-flat](git@github.com:canax/anax-flat.git).
+![layout-anatomy](img/layout-anatomy50.png)
 
-Webbplatsen är skapad av  [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
+Källkoden finns på GitHub [frme17/anax-flat](https://github.com/frme17/Anax-flat).
+
+Webbplatsen är skapad av  [Fredrik Mellkvist](mailto:fredrik.mellkvist@gmail.com).
