@@ -10,4 +10,7 @@ Primära syftet med denna webbplats är:
 
 Källkoden finns på GitHub [frme17/anax-flat](https://github.com/frme17/Anax-flat).
 
+Källkoden till temat finns på GitHub
+[frme17/anax-flat-theme](https://github.com/frme17/anax-flat-theme).
+
 Webbplatsen är skapad av  [Fredrik Mellkvist](mailto:fredrik.mellkvist@gmail.com).

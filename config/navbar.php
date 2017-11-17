@@ -37,33 +37,37 @@ return [
 
 
 
-/*
-    // Used as menu together with responsive menu
-    // Name of this menu
-    "navbarMax" => [
-        // Use for styling the menu
-        "id" => "rm-menu",
-        "wrapper" => null,
-        "class" => "rm-default rm-mobile",
+// Used as menu together with responsive menu
+// Name of this menu
+"navbarMax" => [
+    // Use for styling the menu
+    "id" => "rm-menu",
+    "wrapper" => null,
+    "class" => "rm-default rm-mobile",
 
-        // Here comes the menu structure
-        "items" => [
+    // Here comes the menu structure
+    "items" => [
 
-            "report" => [
-                "text"  => t("Report"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
-                "mark-if-parent" => true,
-            ],
+        "report" => [
+            "text"  => t("Rapport"),
+            "url"   => $this->di->get("url")->create("report"),
+            "title" => t("Rapporter till KMOM uppgifterna"),
+            "mark-if-parent" => true,
+        ],
 
-            "about" => [
-                "text"  => t("About"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
-            ],
+        "about" => [
+            "text"  => t("Om"),
+            "url"   => $this->di->get("url")->create("about"),
+            "title" => t("Om denna webbplats")
+        ],
+
+        "test" => [
+            "text"  => t("Testsida"),
+            "url"   => $this->di->get("url")->create("test"),
+            "title" => t("En testsida")
         ],
     ],
-*/
+],
 
 
     /**
