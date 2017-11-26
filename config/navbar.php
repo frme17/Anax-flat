@@ -32,6 +32,18 @@ return [
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("En testsida")
             ],
+
+            "grid" => [
+                "text"  => t("Gridsida"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("En testsida för vertikalt raster (Grid)")
+            ],
+
+            "typografi" => [
+                "text"  => t("Typografisida"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("En testsida för horisontellt raster (Grid)")
+            ],
         ],
     ],
 
@@ -66,6 +78,19 @@ return [
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("En testsida")
             ],
+
+            "grid" => [
+                "text"  => t("Gridsida"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("En testsida för vertikalt raster (Grid)")
+            ],
+
+            "typografi" => [
+                "text"  => t("Typografisida"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("En testsida för horisontellt raster (Grid)")
+            ],
+
         ],
     ],
 
