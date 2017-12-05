@@ -15,9 +15,16 @@ return [
         "items" => [
 
             "report" => [
-                "text"  => t("Rapport"),
+                "text"  => t("Rapporter"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Rapporter till KMOM uppgifterna"),
+                "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser"),
                 "mark-if-parent" => true,
             ],
 
@@ -43,6 +50,18 @@ return [
                 "text"  => t("Typografisida"),
                 "url"   => $this->di->get("url")->create("typography?hgrid"),
                 "title" => t("En testsida för horisontellt raster (Grid)")
+            ],
+
+            "theme" => [
+                "text"  => t("Mina teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Beskrivning av mina temaval")
+            ],
+
+            "theme-selector" => [
+                "text"  => t("Temaväljaren"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Temaväljaren")
             ],
         ],
     ],
@@ -67,6 +86,13 @@ return [
                 "mark-if-parent" => true,
             ],
 
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser"),
+                "mark-if-parent" => true,
+            ],
+
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -91,6 +117,17 @@ return [
                 "title" => t("En testsida för horisontellt raster (Grid)")
             ],
 
+            "theme" => [
+                "text"  => t("Mina teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Beskrivning av mina temaval")
+            ],
+
+            "theme-selector" => [
+                "text"  => t("Temaväljaren"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Temaväljaren")
+            ],
         ],
     ],
 

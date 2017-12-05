@@ -6,24 +6,26 @@
 return [
 
     "separator" => "------------------------------------------------",
-    
+
     "themes" => [
 
         "separator0" => "------------------------------------------------",
 
         "base"      => [
-            "title"      => "Minimal style, only the plain base",
+            "title"      => "Base theme",
             "class"      => "",
             "stylesheets" => [
-                "css/modules.min.css"
+                "css/base.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             ]
         ],
 
         "default"   => [
-            "title"      => "Your own selected default theme",
-            "class"      => "",
+            "title"      => "Default theme",
+            "class"      => "default",
             "stylesheets" => [
-                "css/default.min.css"
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             ]
         ],
 
@@ -32,31 +34,42 @@ return [
         "light"     =>  [
             "title"      => "Very light theme, white, black and nuances of grey",
             "class"      => "light",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/light.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ]
         ],
 
         "color"     => [
             "title"      => "Enhance the light theme by adding a tiny bit of color",
             "class"      => "color",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/color.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
         ],
 
         "dark"      => [
             "title"      => "Dark background and light text",
             "class"      => "dark",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/dark.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
         ],
 
         "colorful"  => [
             "title"      => "Make a very colorful theme",
             "class"      => "colorful",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/colorful.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
         ],
 
         "typography" => [
             "title"      => "A theme where the typography really stands out",
             "class"      => "light",
-            "stylesheets" => []
+            "stylesheets" => [
+                "css/typo.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
         ],
 
         "separator2" => "------------------------------------------------",
