@@ -12,5 +12,4 @@ return [
     //"staticBaseUrl" => null,
     //"scriptName"    => null,
     "urlType"       => self::URL_CLEAN,
-
 ];
