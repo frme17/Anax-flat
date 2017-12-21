@@ -109,7 +109,6 @@ return [
                 "title" => t("Rapporter till KMOM uppgifterna"),
                 "mark-if-parent" => true,
             ],
-
             "analysis" => [
                 "text"  => t("Analyser"),
                 "url"   => $this->di->get("url")->create("analysis"),
@@ -156,7 +155,6 @@ return [
                 "url"   => $this->di->get("url")->create("blogg"),
                 "title" => t("En bildblogg")
             ],
-
             "design-element" => [
                 "text"  => t("Designelement"),
                 "url"   => $this->di->get("url")->create("design-element"),
@@ -166,10 +164,9 @@ return [
                 "text"  => t("Designprinciper"),
                 "url"   => $this->di->get("url")->create("design-principle"),
                 "title" => t("Designprinciper")
-            ],
+                ],
         ],
     ],
-
 
     /**
      * Callback tracing the current selected menu item base on scriptname
