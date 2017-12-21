@@ -53,7 +53,7 @@ return [
             ],
 
             "theme" => [
-                "text"  => t("Mina teman"),
+                "text"  => t("Teman"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Beskrivning av mina temaval")
             ],
@@ -74,6 +74,18 @@ return [
                 "text"  => t("Bildblogg"),
                 "url"   => $this->di->get("url")->create("blogg"),
                 "title" => t("En bildblogg")
+            ],
+
+            "design-element" => [
+                "text"  => t("Designelement"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("Designelement")
+            ],
+
+            "design-principle" => [
+                "text"  => t("Designprinciper"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Designprinciper")
             ],
         ],
     ],
@@ -104,55 +116,57 @@ return [
                 "title" => t("Analyser"),
                 "mark-if-parent" => true,
             ],
-
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("Om denna webbplats")
             ],
-
             "test" => [
                 "text"  => t("Testsida"),
                 "url"   => $this->di->get("url")->create("test"),
                 "title" => t("En testsida")
             ],
-
             "grid" => [
                 "text"  => t("Gridsida"),
                 "url"   => $this->di->get("url")->create("grid?vgrid"),
                 "title" => t("En testsida för vertikalt raster (Grid)")
             ],
-
             "typografi" => [
                 "text"  => t("Typografisida"),
                 "url"   => $this->di->get("url")->create("typography?hgrid"),
                 "title" => t("En testsida för horisontellt raster (Grid)")
             ],
-
             "theme" => [
                 "text"  => t("Mina teman"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Beskrivning av mina temaval")
             ],
-
             "theme-selector" => [
                 "text"  => t("Temaväljaren"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("Temaväljaren")
             ],
-
             "images" => [
                 "text"  => t("Bildtester"),
                 "url"   => $this->di->get("url")->create("images"),
                 "title" => t("Bildtester")
             ],
-
             "blogg" => [
                 "text"  => t("Bildblogg"),
                 "url"   => $this->di->get("url")->create("blogg"),
                 "title" => t("En bildblogg")
             ],
 
+            "design-element" => [
+                "text"  => t("Designelement"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("Designelement")
+            ],
+                "design-principle" => [
+                "text"  => t("Designprinciper"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Designprinciper")
+            ],
         ],
     ],
 

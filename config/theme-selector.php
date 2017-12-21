@@ -79,5 +79,50 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "picture" => [
+            "title"      => "A theme with a picture as background",
+            "class"      => "picture",
+            "stylesheets" => [
+                "css/picture.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
+        ],
+
+        "texture" => [
+            "title"      => "A theme with a texture as background",
+            "class"      => "texture",
+            "stylesheets" => [
+                "css/texture.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
+        ],
+
+        "gradient" => [
+            "title"      => "A theme with gradient elements",
+            "class"      => "gradient",
+            "stylesheets" => [
+                "css/gradient.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
+        ],
+
+        "separator4" => "------------------------------------------------",
+
+        "perspective" => [
+            "title"      => "A theme describing Perspective and Balance",
+            "class"      => "perspective",
+            "stylesheets" => [
+                "css/perspective.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
+        ],
+
+        "movement" => [
+            "title"      => "A theme describing Movement and Variety",
+            "class"      => "movement",
+            "stylesheets" => [
+                "css/movement.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
+        ],
+
     ]
 ];
